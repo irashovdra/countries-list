@@ -1,0 +1,12 @@
+<ul class="countries">
+  {{#countries}}
+    <li>
+      <h3 class="countries__name">{{name}}, {{capital}}</h3>
+      <img src={{flag}} alt={{name}} class="countries__photo" />
+      <p class="countries__description">{{currency}},
+        {{language}},
+        {{population}},
+        {{infected}}</p>
+    </li>
+  {{/countries}}
+</ul>
